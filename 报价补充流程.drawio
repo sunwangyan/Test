@@ -1,9 +1,279 @@
-<mxfile host="app.diagrams.net" modified="2024-07-17T11:22:35.592Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" version="24.6.4" etag="9LFVaw2ciP_sYOz2TZjN" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-17T12:07:30.781Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="cxPrk-1QDosAPcTTbTTg" version="24.7.1" type="github">
   <diagram name="第 1 页" id="P4lwAblw9_sty8PCu2t_">
-    <mxGraphModel>
+    <mxGraphModel dx="2253" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-37" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry y="20" width="600" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hiAqTfcSWQ9DCPCy_gr6-1" target="hiAqTfcSWQ9DCPCy_gr6-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-60" value="查找" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hiAqTfcSWQ9DCPCy_gr6-59">
+          <mxGeometry x="0.0245" y="-3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-1" value="JyCode" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="422" width="160" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-2" value="car_model_id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="hiAqTfcSWQ9DCPCy_gr6-1">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-3" value="company_code" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="hiAqTfcSWQ9DCPCy_gr6-1">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-4" value="code" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="hiAqTfcSWQ9DCPCy_gr6-1">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-5" value="plat_vehicle" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="225" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-6" value="car_mode_id（车型Id）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="hiAqTfcSWQ9DCPCy_gr6-5">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-7" value="plateVehicleCode(行业车型编码)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="hiAqTfcSWQ9DCPCy_gr6-5">
+          <mxGeometry y="56" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hiAqTfcSWQ9DCPCy_gr6-10" target="hiAqTfcSWQ9DCPCy_gr6-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-10" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="70" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hiAqTfcSWQ9DCPCy_gr6-11" target="hiAqTfcSWQ9DCPCy_gr6-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-11" value="通过&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(30, 31, 34); color: rgb(188, 190, 196);&quot;&gt;platVehicleCode和searchCompanyCode查找本地库&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="70" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-20" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="820" y="80" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hiAqTfcSWQ9DCPCy_gr6-23" target="hiAqTfcSWQ9DCPCy_gr6-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-23" value="通过行业车型编码获得车型Id" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="225" y="235" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.013;entryY=0.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hiAqTfcSWQ9DCPCy_gr6-23" target="hiAqTfcSWQ9DCPCy_gr6-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hiAqTfcSWQ9DCPCy_gr6-26" target="hiAqTfcSWQ9DCPCy_gr6-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="550" />
+              <mxPoint x="300" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-26" value="调用精友接口通过&lt;div&gt;车型Id(car_model_id)+保险公司编码（search_code）查找对应的jyCode&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="205" y="430" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hiAqTfcSWQ9DCPCy_gr6-26" target="hiAqTfcSWQ9DCPCy_gr6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hiAqTfcSWQ9DCPCy_gr6-33" target="hiAqTfcSWQ9DCPCy_gr6-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-36" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hiAqTfcSWQ9DCPCy_gr6-35">
+          <mxGeometry x="-0.3897" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hiAqTfcSWQ9DCPCy_gr6-33" target="hiAqTfcSWQ9DCPCy_gr6-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-33" value="是否存在" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="600" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-39" value="通过机器人保险公司编码+vin码+厂牌型号调用机器人获得机器人的jycode+" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="195" y="800" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-41" value="robot_jycode(虚拟)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="542" y="700" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-45" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="hiAqTfcSWQ9DCPCy_gr6-41">
+          <mxGeometry y="30" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-46" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="hiAqTfcSWQ9DCPCy_gr6-45">
+          <mxGeometry width="30" height="40" as="geometry">
+            <mxRectangle width="30" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-47" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;jyVehicleCode&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="hiAqTfcSWQ9DCPCy_gr6-45">
+          <mxGeometry x="30" width="150" height="40" as="geometry">
+            <mxRectangle width="150" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-48" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="hiAqTfcSWQ9DCPCy_gr6-41">
+          <mxGeometry y="70" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-49" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="hiAqTfcSWQ9DCPCy_gr6-48">
+          <mxGeometry width="30" height="40" as="geometry">
+            <mxRectangle width="30" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-50" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;platVehicleCode&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="hiAqTfcSWQ9DCPCy_gr6-48">
+          <mxGeometry x="30" width="150" height="40" as="geometry">
+            <mxRectangle width="150" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-51" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="hiAqTfcSWQ9DCPCy_gr6-41">
+          <mxGeometry y="110" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-52" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="hiAqTfcSWQ9DCPCy_gr6-51">
+          <mxGeometry width="30" height="40" as="geometry">
+            <mxRectangle width="30" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-53" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;companyCode&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="hiAqTfcSWQ9DCPCy_gr6-51">
+          <mxGeometry x="30" width="150" height="40" as="geometry">
+            <mxRectangle width="150" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.011;entryY=0.325;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hiAqTfcSWQ9DCPCy_gr6-39" target="hiAqTfcSWQ9DCPCy_gr6-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-55" value="保存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hiAqTfcSWQ9DCPCy_gr6-54">
+          <mxGeometry x="0.1749" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-56" value="通过机器人的精友code+机器人的保司编码查询本地精友库获得carModelId(车型Id)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="195" y="980" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.474;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hiAqTfcSWQ9DCPCy_gr6-39" target="hiAqTfcSWQ9DCPCy_gr6-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.005;entryY=0.384;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hiAqTfcSWQ9DCPCy_gr6-61" target="hiAqTfcSWQ9DCPCy_gr6-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="1219" />
+              <mxPoint x="200" y="1211" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-65" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hiAqTfcSWQ9DCPCy_gr6-64">
+          <mxGeometry x="-0.425" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hiAqTfcSWQ9DCPCy_gr6-61" target="hiAqTfcSWQ9DCPCy_gr6-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-79" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hiAqTfcSWQ9DCPCy_gr6-78">
+          <mxGeometry x="-0.0141" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-61" value="是否存在" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1169" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=0.08;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hiAqTfcSWQ9DCPCy_gr6-56" target="hiAqTfcSWQ9DCPCy_gr6-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hiAqTfcSWQ9DCPCy_gr6-63" target="hiAqTfcSWQ9DCPCy_gr6-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-250" y="1420" />
+              <mxPoint x="-250" y="266" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-67" value="save" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hiAqTfcSWQ9DCPCy_gr6-66">
+          <mxGeometry x="-0.6903" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-74" value="步骤1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hiAqTfcSWQ9DCPCy_gr6-66">
+          <mxGeometry x="-0.94" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-63" value="保存车型id(car_model_ijd)和行业车型编码关系" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="1184.5" width="200" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-72" value="查找本地服务流程" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="80" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hiAqTfcSWQ9DCPCy_gr6-63" target="hiAqTfcSWQ9DCPCy_gr6-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-420" y="1219" />
+              <mxPoint x="-420" y="370" />
+              <mxPoint x="263" y="370" />
+              <mxPoint x="263" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-76" value="步骤2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-345" y="1198" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hiAqTfcSWQ9DCPCy_gr6-77" target="hiAqTfcSWQ9DCPCy_gr6-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-77" value="调用精友接口，通过厂牌型号获得车型Id(car_model_id)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="215" y="1350" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hiAqTfcSWQ9DCPCy_gr6-80" target="hiAqTfcSWQ9DCPCy_gr6-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-90" value="精友返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hiAqTfcSWQ9DCPCy_gr6-89">
+          <mxGeometry x="0.0824" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hiAqTfcSWQ9DCPCy_gr6-80" target="hiAqTfcSWQ9DCPCy_gr6-84">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="1680" />
+              <mxPoint x="310" y="1680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-80" value="通过车型Id(car_model_id)+机器人的保司code查找jyCode" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="212.5" y="1550" width="195" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.456;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hiAqTfcSWQ9DCPCy_gr6-80" target="hiAqTfcSWQ9DCPCy_gr6-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-157" y="1590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-83" value="保存精友code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hiAqTfcSWQ9DCPCy_gr6-82">
+          <mxGeometry x="-0.7223" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="hiAqTfcSWQ9DCPCy_gr6-84" target="hiAqTfcSWQ9DCPCy_gr6-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-84" value="比对机器人的厂牌型号&lt;div&gt;和精友返回的厂牌型号&lt;/div&gt;&lt;div&gt;关联车型Id和行业车型编码关系&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1750" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-85" value="jyCode(虚拟)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="542" y="1530" width="160" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-86" value="car_model_id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="hiAqTfcSWQ9DCPCy_gr6-85">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-87" value="jy_code" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="hiAqTfcSWQ9DCPCy_gr6-85">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-88" value="company_code" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="hiAqTfcSWQ9DCPCy_gr6-85">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hiAqTfcSWQ9DCPCy_gr6-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.02;entryY=0.57;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hiAqTfcSWQ9DCPCy_gr6-84" target="hiAqTfcSWQ9DCPCy_gr6-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="1800" />
+              <mxPoint x="810" y="292" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
